@@ -15,3 +15,11 @@ export const fetchProduct = `*[_type == "product"] {
   price,
   quantity
 }`;
+
+export const fetchPost = `*[_type == "post"]{
+  _id,
+  user,
+  content,
+  likes,
+  comments
+}`;
